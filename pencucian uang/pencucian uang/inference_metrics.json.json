@@ -1,0 +1,20 @@
+{
+  "project": "AML Fraud Detection",
+  "environment": {
+    "platform": "Google Colab",
+    "hardware_accelerator": "T4 GPU",
+    "ram_total_gb": 12.7
+  },
+  "best_model_details": {
+    "model_name": "LightGBM",
+    "file_size_mb": 1.2
+  },
+  "computational_performance": {
+    "inference_latency_seconds": 0.0452,
+    "cpu_usage_percent": 15.4,
+    "ram_usage_mb": 450.2,
+    "gpu_vram_usage_mb": 210.5,
+    "gpu_utilization_percent": 3,
+    "notes": "Pengukuran ini dilakukan saat memprediksi satu batch data uji (X_test)."
+  }
+}
