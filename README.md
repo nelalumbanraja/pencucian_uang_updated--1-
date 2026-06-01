@@ -194,6 +194,27 @@ Additionally, CPU usage is measured using a background polling monitor normalize
 > **Edge AI Suitability:** All six criteria passed ✅  
 > Model Size < 10 MB · Memory Footprint < 50 MB · Mean Latency < 5 ms · P99 Latency < 10 ms · Throughput > 1,000 TPS · Avg CPU per-core < 80%
 
+## Raw Inference Benchmark Output
+
+The following screenshots show the raw output generated from the LightGBM inference benchmark script.
+
+### Model Size and Memory Footprint
+![Model Size and Memory Footprint](pencucian%20uang/pencucian%20uang/benchmark_outputs/benchmark_model_size_memory.png)
+
+### Inference Latency
+![Inference Latency](pencucian%20uang/pencucian%20uang/benchmark_outputs/benchmark_latency.png)
+
+### Batch Throughput
+![Batch Throughput](pencucian%20uang/pencucian%20uang/benchmark_outputs/benchmark_batch_throughput.png)
+
+### Stress Test CPU and Memory
+![Stress Test CPU and Memory](pencucian%20uang/pencucian%20uang/benchmark_outputs/benchmark_stress_cpu_memory.png)
+
+### Edge AI Suitability Assessment
+![Edge AI Suitability Assessment](pencucian%20uang/pencucian%20uang/benchmark_outputs/benchmark_edge_ai_suitability.png)
+
+
+
 ### Notes on Measurement Methodology
 
 **Memory Footprint** is measured as the RSS (Resident Set Size) delta before and after loading the model — not the total process memory. This isolates the actual memory cost attributable to the model itself.
